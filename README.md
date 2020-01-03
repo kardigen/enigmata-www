@@ -1,2 +1,2 @@
-# enigmata-api
-React Application - www.enigmata.pl service
+# Demo React Application - www.enigmata.pl service
+
