@@ -1,0 +1,42 @@
+{
+  "creationDate": "2019-01-03T22:12:00.008Z",
+  "statsAllDays": [
+    {
+      "nick": "Marcin Kawelski",
+      "eid": "10d414a6-8f68-40a7-9885-19fcd978d05d",
+      "last7DaysPoints": 20,
+      "watches": 0,
+      "allRiddleCorrectAnswers": 2,
+      "last30DaysPoints": 20,
+      "averageCorrectAnswerTime": 370031,
+      "points": 20,
+      "rankNo": 1
+    }
+  ],
+  "stats30Days": [
+    {
+      "nick": "Marcin Kawelski",
+      "eid": "10d414a6-8f68-40a7-9885-19fcd978d05d",
+      "last7DaysPoints": 20,
+      "watches": 0,
+      "allRiddleCorrectAnswers": 2,
+      "last30DaysPoints": 20,
+      "averageCorrectAnswerTime": 370031,
+      "points": 20,
+      "rankNo": 1
+    }
+  ],
+  "stats7Days": [
+    {
+      "nick": "Marcin Kawelski",
+      "eid": "10d414a6-8f68-40a7-9885-19fcd978d05d",
+      "last7DaysPoints": 20,
+      "watches": 0,
+      "allRiddleCorrectAnswers": 2,
+      "last30DaysPoints": 20,
+      "averageCorrectAnswerTime": 370031,
+      "points": 20,
+      "rankNo": 1
+    }
+  ]
+}

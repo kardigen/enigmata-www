@@ -1,0 +1,206 @@
+/* riddle-example */
+
+@media (max-width: 767px) {
+    .riddle-example {
+        text-align: center;
+    }
+
+    .riddle-example .riddle {
+        font-size: 32px;
+        font-weight: 300;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 181px;
+        border-style: solid none solid none;
+        border-width: 1px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .riddle-example .riddle {
+        font-size: 40px;
+        font-weight: 300;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 170px;
+        border-style: solid none solid none;
+        border-width: 1px;
+    }
+}
+
+.riddle-example .tab {
+    position: relative;
+    margin-bottom: 1px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.riddle-example input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+.riddle-example label {
+    position: relative;
+    display: block;
+    padding: 0 0 0 1em;
+    background: #fff;
+    font-weight: bold;
+    line-height: 3;
+    cursor: pointer;
+}
+
+.riddle-example .tab-content {
+    max-height: 0;
+    overflow: hidden;
+    background: #fff;
+    -webkit-transition: max-height .35s;
+    -o-transition: max-height .35s;
+    transition: max-height .35s;
+}
+
+.riddle-example .tab-content p {
+    margin: 1em;
+}
+
+.riddle-example input:checked ~ .tab-content {
+    max-height: 10em;
+}
+
+.riddle-example label::after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 3em;
+    height: 3em;
+    line-height: 3;
+    text-align: center;
+    -webkit-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+}
+
+.riddle-example input[type=checkbox] + label::after {
+    content: "\25BC";
+}
+
+.riddle-example input[type=checkbox]:checked + label::after {
+    transform: rotateX(180deg);
+}
+
+/*shine*/
+
+.shine {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.shine:after {
+    content: "";
+    position: absolute;
+    top: -110%;
+    left: -210%;
+    width: 200%;
+    height: 200%;
+    opacity: 0;
+    transform: rotate(30deg);
+
+    background: rgba(255, 255, 255, 0);
+    background: linear-gradient(
+            to right,
+            rgba(255, 255, 255, 0.0) 0%,
+            rgba(255, 255, 255, 0.13) 77%,
+            rgba(255, 255, 255, 0.5) 92%,
+            rgba(255, 255, 255, 0.0) 100%
+    );
+}
+
+/* Hover state - trigger effect */
+
+.shine:hover:after {
+    opacity: 0.5;
+    top: -30%;
+    left: -30%;
+    transition-property: left, top, opacity;
+    transition-duration: 0.7s, 0.7s, 0.15s;
+    transition-timing-function: ease;
+}
+
+/* Active state */
+
+.shine:active:after {
+    opacity: 0;
+}
+
+.text-glow-2s {
+    animation: text-glow 6s linear 1s infinite;
+}
+
+.text-glow-4s {
+    animation: text-glow 6s linear 2s infinite;
+}
+
+.text-glow-6s {
+    animation: text-glow 6s linear 3s infinite;
+}
+
+.text-glow-red-6s {
+    animation: text-glow-red 6s linear 3s infinite;
+}
+
+.text-glow-10s {
+    animation: text-glow 6s linear 4s infinite;
+}
+
+@keyframes text-glow {
+    0% {
+        text-shadow: 0 0 0 rgba(255, 255, 255, .5);
+    }
+
+    20% {
+        text-shadow: 0 0 0 rgba(255, 255, 255, .5);
+    }
+    23% {
+        text-shadow: 3px 3px 3px rgba(255, 255, 255, 1), 3px -3px 3px rgba(255, 255, 255, 1), -3px 3px 3px rgba(255, 255, 255, 1),
+        -3px -3px 3px rgba(255, 255, 255, 1);
+    }
+    25% {
+
+        text-shadow: 0 0 0 rgba(255, 255, 255, .5);
+    }
+}
+
+
+@keyframes text-glow-box {
+    0% {
+        box-shadow: 0 0 0 rgba(255, 255, 255, .5);
+        text-shadow: 0 0 0 rgba(218, 65, 103, .5);
+    }
+
+    20% {
+        box-shadow: 0 0 0 rgba(255, 255, 255, .5);
+        text-shadow: 0 0 0 rgba(218, 65, 103, .5);
+    }
+    23% {
+        box-shadow: 1px 1px 1px rgba(255, 255, 255, 1), 1px -1px 1px rgba(255, 255, 255, 1), -1px 1px 1px rgba(255, 255, 255, 1),
+        -1px -1px 1px rgba(255, 255, 255, 1);
+        text-shadow: 3px 3px 3px rgba(255, 255, 255, 1), 3px -3px 3px rgba(255, 255, 255, 1), -3px 3px 3px rgba(255, 255, 255, 1),
+        -3px -3px 3px rgba(255, 255, 255, 1);
+    }
+    25% {
+        box-shadow: 0 0 0 rgba(255, 255, 255, .5);
+        text-shadow: 0 0 0 rgba(218, 65, 103, .5);
+    }
+}
+
+

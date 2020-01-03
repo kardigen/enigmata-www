@@ -1,0 +1,30 @@
+{
+  "riddleId": 1,
+  "startDate": 1546551180000,
+  "endDate": 1546552380000,
+  "question": "Riddle 1",
+  "hints": {
+    "words": 2
+  },
+  "riddleType": "logika",
+  "riddleStatus": "used",
+  "riddleHashId": "00001z16815a23ae0z16815b48a60",
+  "gameTypeCode": "firstWin1",
+  "name": "Kto pierwszy ten lepszy - 25zł",
+  "description": "Zasady gry w skrócie",
+  "rules": [
+    "Aby wygrać odgadnij zagadkę jako pierwszy.",
+    "W czasie trwania zagadki możesz próbować tyle razy ile chcesz.",
+    "W tej zagadce można wygrać 25 zł oraz 15 e-punktów (pierwsze 100 osób wygrywa dodatkowe punkty)",
+    "Dostaniesz 25 zł za pierwsze miejsce, dodatkowo 5 za odgadnięcie zagadki oraz dodatkowo 10 e-punktów za miejsca 1-10, 9 za miejsca 11-20, 8 za miejsca 21-30, itd.",
+    "Zagadka kosztuje 1 kredyt - bezzwrotnie."
+  ],
+  "termsLink": "/regulamin_zagadka_free.html",
+  "creditsCost": 1,
+  "pointsCost": 0,
+  "winPrize": 25,
+  "winPointsMax": 10,
+  "winPointsPerStep": 1,
+  "winPointsStep": 10,
+  "winPointsRiddleSolve": 5
+}

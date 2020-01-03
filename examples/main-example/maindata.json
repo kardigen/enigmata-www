@@ -1,0 +1,143 @@
+{
+  "creationDate": 1546551780000,
+  "riddles": [
+    {
+      "gameTypeCode": "firstWin1",
+      "name": "Kto pierwszy ten lepszy - 25zł",
+      "description": "Zasady gry w skrócie",
+      "rules": [
+        "Aby wygrać odgadnij zagadkę jako pierwszy.",
+        "W czasie trwania zagadki możesz próbować tyle razy ile chcesz.",
+        "W tej zagadce można wygrać 25 zł oraz 15 e-punktów (pierwsze 100 osób wygrywa dodatkowe punkty)",
+        "Dostaniesz 25 zł za pierwsze miejsce, dodatkowo 5 za odgadnięcie zagadki oraz dodatkowo 10 e-punktów za miejsca 1-10, 9 za miejsca 11-20, 8 za miejsca 21-30, itd.",
+        "Zagadka kosztuje 1 kredyt - bezzwrotnie."
+      ],
+      "termsLink": "/regulamin_zagadka_free.html",
+      "creditsCost": 1,
+      "pointsCost": 0,
+      "winPrize": 25,
+      "winPointsMax": 10,
+      "winPointsPerStep": 1,
+      "winPointsStep": 10,
+      "winPointsRiddleSolve": 5,
+      "riddleHashId": "00592z1696666b180z16966fdc160",
+      "riddleId": 592,
+      "startDate": 1552201200000,
+      "endDate": 1552211100000,
+      "resultsUrl": "https://dev.enigmata.pl/results/00592z1696666b180z16966fdc160.json?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kZXYuZW5pZ21hdGEucGwvcmVzdWx0cy8wMDU5MnoxNjk2NjY2YjE4MHoxNjk2NmZkYzE2MC5qc29uIiwiQ29uZGl0aW9uIjp7IkRhdGVHcmVhdGVyVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTUyMjExMTAwfSwiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1NTIzNDg4MDB9fX1dfQ__&Key-Pair-Id=APKAICN7WG7MC3KHRUKQ&Signature=Dsq1BpRon2pz0xH-OooiaDGKgGz4~-6AMZYo2O~ygBKvrJzt2UEqykyHmUtB0shEMfsG17udVDg~IDYyBNqDwkN23P9fSdfI0632Pl6xGFnC0tdhcUbPmhPv3QMWZqgOJBsXNE~sle~c2b4CjfJiZ6dfhb2arDhp6KvqcC0J3EHCuTChrlUZFqlkDvrUwwC5-ivwmjcQjVgsqyR1qKkKjTGnfuht5Mgn0CQ1-RfUw6yWIEmaOCLb13sUFdbZewF-1AQ0DsxhJA11nRDd-24iRi83SCIsvKqgvF5ZK0pqoyArVT1p7xegva-ZU1rWULUD5S1R0lSl4Ba1tQXQMyMVBQ__",
+      "category": "past"
+    },
+    {
+      "gameTypeCode": "firstWinFree",
+      "name": "Zagadka free",
+      "description": "Zasady gry w skrócie",
+      "rules": [
+        "Aby wygrać odgadnij zagadkę jako pierwszy.",
+        "W czasie trwania zagadki możesz próbować tyle razy ile chcesz.",
+        "W tej zagadce można wygrać 5 e-punktów, brak nagrody pieniężnej.",
+        "Dostaniesz 2 e-punktów za odgadnięcie zagadki oraz dodatkowo 3 e-punkty za miejsce 1-10, 2 za miejsce 11-20, 1 za miejsce 21-30.",
+        "Zagadka jest całkowicie za darmo."
+      ],
+      "termsLink": "/regulamin_zagadka_free.html",
+      "creditsCost": 0,
+      "pointsCost": 0,
+      "winPrize": 0,
+      "winPointsMax": 3,
+      "winPointsPerStep": 1,
+      "winPointsStep": 10,
+      "winPointsRiddleSolve": 2,
+      "riddleHashId": "00593z169670b7d00z16967a28ce0",
+      "riddleId": 593,
+      "startDate": 1552212000000,
+      "endDate": 1552221900000,
+      "resultsUrl": "https://dev.enigmata.pl/results/00593z169670b7d00z16967a28ce0.json?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kZXYuZW5pZ21hdGEucGwvcmVzdWx0cy8wMDU5M3oxNjk2NzBiN2QwMHoxNjk2N2EyOGNlMC5qc29uIiwiQ29uZGl0aW9uIjp7IkRhdGVHcmVhdGVyVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTUyMjIxOTAwfSwiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1NTIzNDg4MDB9fX1dfQ__&Key-Pair-Id=APKAICN7WG7MC3KHRUKQ&Signature=E9d6z2D69UxbICr2HfydmJKW-gOkK6YtK-4mjcDYNy0vwx5yu2G0Cy1hSDmfdbpZjlhVLO~bK0gnkO5N6SNiczg0lH3AU5LWsRD~dH1JpMF5fNDe9Z-vTxbGzsPRm5LZ6RD1SK177RoLcQylHtiXlLjM9uNK5~Gn4GDFxXshYfGkxnEzX3WrDo9IQOFL9PJ4uF6J0KFzyn4DxfHWmTMoVbI~N0UOv0gMyd46oCc13UFe1GFLdZBlTWR5xc75RzawxUHIM~f9GFnsXSIPIP5WmsIjV~UN9WDOLcuCBEYVtCZC0tBAy5JYdoBKej9ywoJydc8ByGf-wRqjU4wEn1qkEg__",
+      "category": "past"
+    },
+    {
+      "gameTypeCode": "firstWin1",
+      "name": "Kto pierwszy ten lepszy - 25zł",
+      "description": "Zasady gry w skrócie",
+      "rules": [
+        "Aby wygrać odgadnij zagadkę jako pierwszy.",
+        "W czasie trwania zagadki możesz próbować tyle razy ile chcesz.",
+        "W tej zagadce można wygrać 25 zł oraz 15 e-punktów (pierwsze 100 osób wygrywa dodatkowe punkty)",
+        "Dostaniesz 25 zł za pierwsze miejsce, dodatkowo 5 za odgadnięcie zagadki oraz dodatkowo 10 e-punktów za miejsca 1-10, 9 za miejsca 11-20, 8 za miejsca 21-30, itd.",
+        "Zagadka kosztuje 1 kredyt - bezzwrotnie."
+      ],
+      "termsLink": "/regulamin_zagadka_free.html",
+      "creditsCost": 1,
+      "pointsCost": 0,
+      "winPrize": 25,
+      "winPointsMax": 10,
+      "winPointsPerStep": 1,
+      "winPointsStep": 10,
+      "winPointsRiddleSolve": 5,
+      "riddleHashId": "00594z16967e73700z169687e46e0",
+      "riddleId": 594,
+      "startDate": 1552226400000,
+      "endDate": 1552236300000,
+      "resultsUrl": "https://dev.enigmata.pl/results/00594z16967e73700z169687e46e0.json?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kZXYuZW5pZ21hdGEucGwvcmVzdWx0cy8wMDU5NHoxNjk2N2U3MzcwMHoxNjk2ODdlNDZlMC5qc29uIiwiQ29uZGl0aW9uIjp7IkRhdGVHcmVhdGVyVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTUyMjM2MzAwfSwiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1NTIzNDg4MDB9fX1dfQ__&Key-Pair-Id=APKAICN7WG7MC3KHRUKQ&Signature=JA5rc2xoUQFq0twnNTkzBPY05SNs3AjHnDjBD27rxFMbAyZECr8vJNh3sLQd-pi0ZCvFhC99Ht6-7C-rBIXxlOBWdANcI3IY8Xcx9qTdGuE4vOxNxQEGAUTAISEJz-~aIsVJV0zZUArOffd~6vLd8AKMVjbCWr101PK0qIe-BbBDegppZGk-ghKDVXnscjPoy5eR2D4tiSidJox1lQVXk9gpCDRVuVPerjNLaAzIUxmaPY8~PJUkzNUsGy-aA1N4jtWaV6xduT0WTqnb3ntYH-b~IaWP5Mo0wIJUxNe4JIOaWF2UQZTb7qsOdWNHCFcrKZv0RIPbuxYBV4FmxmJ6pg__",
+      "category": "past"
+    },
+    {
+      "gameTypeCode": "firstWinFree",
+      "name": "Zagadka free",
+      "description": "Zasady gry w skrócie",
+      "rules": [
+        "Aby wygrać odgadnij zagadkę jako pierwszy.",
+        "W czasie trwania zagadki możesz próbować tyle razy ile chcesz.",
+        "W tej zagadce można wygrać 5 e-punktów, brak nagrody pieniężnej.",
+        "Dostaniesz 2 e-punktów za odgadnięcie zagadki oraz dodatkowo 3 e-punkty za miejsce 1-10, 2 za miejsce 11-20, 1 za miejsce 21-30.",
+        "Zagadka jest całkowicie za darmo."
+      ],
+      "termsLink": "/regulamin_zagadka_free.html",
+      "creditsCost": 0,
+      "pointsCost": 0,
+      "winPrize": 0,
+      "winPointsMax": 3,
+      "winPointsPerStep": 1,
+      "winPointsStep": 10,
+      "winPointsRiddleSolve": 2,
+      "riddleHashId": "00595z169688c0280z16969231260",
+      "riddleId": 595,
+      "startDate": 1552237200000,
+      "endDate": 1552247100000,
+      "resultsUrl": "https://dev.enigmata.pl/results/00595z169688c0280z16969231260.json?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kZXYuZW5pZ21hdGEucGwvcmVzdWx0cy8wMDU5NXoxNjk2ODhjMDI4MHoxNjk2OTIzMTI2MC5qc29uIiwiQ29uZGl0aW9uIjp7IkRhdGVHcmVhdGVyVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTUyMjQ3MTAwfSwiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1NTIzNDg4MDB9fX1dfQ__&Key-Pair-Id=APKAICN7WG7MC3KHRUKQ&Signature=jrerKylfnQHw9kO2LdXosCCWGrSGFZZYhIwj3e59FIJilwr-hzMxlsOqNe0PtuUpOKcauygKjqsEXmVBbUyMKrTteuDhS0RDaC3xnHfS4xw4vKO0JUWYw2KGK70fgnSm9BAvmw8H-yZ4h9OqMmFUDQw39pHHFmu-O~fyUOZnO3YIXGtM-VCP~aQjmmJqy6fBVPjBE7aK5RZwrBqMAFhorSiuAzjigvVyTjy8UeCJKSrFsjo23pch6o68Cx64yElvXIKzDpgAmRrkKzzU35hypKevAVj-0jrCJ-~JBl8GtUqvSQIMSiF0hPN9rddJiLyumW7Istt6CmUpBxJ8YK6aQw__",
+      "category": "current"
+    }
+  ],
+  "creditPlans": [
+    {
+      "planCode": "3k",
+      "header": "3 e-kredyty",
+      "headerHint": "na dobry start",
+      "price": "6.00",
+      "priceFormatted": "6zł",
+      "priceHint": "Możesz wygrać 90zł"
+    },
+    {
+      "planCode": "5k",
+      "header": "5 e-kredytów",
+      "headerHint": "+2 e-kredyty gratis",
+      "price": "10.00",
+      "priceFormatted": "10zł",
+      "priceHint": "Możesz wygrać 210zł"
+    },
+    {
+      "planCode": "10k",
+      "header": "10 e-kredytów",
+      "headerHint": "+ 10 e-kredytów gratis",
+      "price": "20.00",
+      "priceFormatted": "20zł",
+      "priceHint": "Możesz wygrać 600zł"
+    },
+    {
+      "planCode": "20k",
+      "header": "20 e-kredytów",
+      "headerHint": "+ 40 e-kredytów gratis",
+      "price": "40.00",
+      "priceFormatted": "40zł",
+      "priceHint": "Możesz wygrać 1800zł"
+    }
+  ]
+}

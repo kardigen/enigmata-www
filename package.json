@@ -1,0 +1,36 @@
+{
+  "name": "enigmata-www",
+  "version": "0.2.0",
+  "private": true,
+  "dependencies": {
+    "idx": "2.5.2",
+    "react": "16.7.0",
+    "react-dom": "16.7.0",
+    "react-redux": "5.1.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "latest",
+    "redux": "latest",
+    "redux-responsive": "latest",
+    "redux-saga": "latest"
+  },
+  "scripts": {
+    "start": "sh -ac '. .env.development; PORT=3001 react-scripts start'",
+    "build": "sh -ac '. .env.${REACT_APP_ENV}; env; react-scripts build'",
+    "build:staging": "GENERATE_SOURCEMAP=false REACT_APP_ENV=staging npm run build",
+    "build:production": "GENERATE_SOURCEMAP=false REACT_APP_ENV=production npm run build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "3.2.0",
+    "redux-devtools": "3.5.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

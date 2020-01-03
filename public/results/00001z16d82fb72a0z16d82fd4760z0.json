@@ -1,0 +1,912 @@
+{
+  "riddleId": 1,
+  "riddleNo": 1,
+  "startDate": 1569860580000,
+  "endDate": 1569860700000,
+  "question": "Riddle 1",
+  "answer": "Ans 1",
+  "riddleStatus": "finished",
+  "riddleHashId": "00001z16d82fb72a0z16d82fd4760z0",
+  "results": [
+    {
+      "rankNo": 1,
+      "points": 10,
+      "eid": "1",
+      "nick": "Enigmata User 1",
+      "credits": 1,
+      "correctAnswerTime": 1569860581200,
+      "allAnswers": 9
+    },
+    {
+      "rankNo": 2,
+      "points": 10,
+      "eid": "4",
+      "nick": "Enigmata User 2",
+      "credits": 1,
+      "correctAnswerTime": 1569860582400,
+      "allAnswers": 10
+    },
+    {
+      "rankNo": 3,
+      "points": 10,
+      "eid": "9",
+      "nick": "Enigmata User 3",
+      "credits": 1,
+      "correctAnswerTime": 1569860583600,
+      "allAnswers": 6
+    },
+    {
+      "rankNo": 4,
+      "points": 10,
+      "eid": "10",
+      "nick": "Enigmata User 4",
+      "credits": 1,
+      "correctAnswerTime": 1569860584800,
+      "allAnswers": 6
+    },
+    {
+      "rankNo": 5,
+      "points": 10,
+      "eid": "19",
+      "nick": "Enigmata User 5",
+      "credits": 1,
+      "correctAnswerTime": 1569860586000,
+      "allAnswers": 1
+    },
+    {
+      "rankNo": 6,
+      "points": 10,
+      "eid": "24",
+      "nick": "Enigmata User 6",
+      "credits": 1,
+      "correctAnswerTime": 1569860587200,
+      "allAnswers": 10
+    },
+    {
+      "rankNo": 7,
+      "points": 10,
+      "eid": "31",
+      "nick": "Enigmata User 7",
+      "credits": 1,
+      "correctAnswerTime": 1569860588400,
+      "allAnswers": 5
+    },
+    {
+      "rankNo": 8,
+      "points": 10,
+      "eid": "40",
+      "nick": "Enigmata User 8",
+      "credits": 1,
+      "correctAnswerTime": 1569860589600,
+      "allAnswers": 10
+    },
+    {
+      "rankNo": 9,
+      "points": 10,
+      "eid": "51",
+      "nick": "Enigmata User 9",
+      "credits": 1,
+      "correctAnswerTime": 1569860590800,
+      "allAnswers": 4
+    },
+    {
+      "rankNo": 10,
+      "points": 10,
+      "eid": "64",
+      "nick": "Enigmata User 10",
+      "credits": 1,
+      "correctAnswerTime": 1569860592000,
+      "allAnswers": 2
+    },
+    {
+      "rankNo": 11,
+      "points": 9,
+      "eid": "79",
+      "nick": "Enigmata User 11",
+      "credits": 0,
+      "correctAnswerTime": 1569860593200,
+      "allAnswers": 10
+    },
+    {
+      "rankNo": 12,
+      "points": 9,
+      "eid": "90",
+      "nick": "Enigmata User 12",
+      "credits": 0,
+      "correctAnswerTime": 1569860594400,
+      "allAnswers": 1
+    },
+    {
+      "rankNo": 13,
+      "points": 9,
+      "eid": "a9",
+      "nick": "Enigmata User 13",
+      "credits": 0,
+      "correctAnswerTime": 1569860595600,
+      "allAnswers": 5
+    },
+    {
+      "rankNo": 14,
+      "points": 9,
+      "eid": "c4",
+      "nick": "Enigmata User 14",
+      "credits": 0,
+      "correctAnswerTime": 1569860596800,
+      "allAnswers": 6
+    },
+    {
+      "rankNo": 15,
+      "points": 9,
+      "eid": "e1",
+      "nick": "Enigmata User 15",
+      "credits": 0,
+      "correctAnswerTime": 1569860598000,
+      "allAnswers": 9
+    },
+    {
+      "rankNo": 16,
+      "points": 9,
+      "eid": "100",
+      "nick": "Enigmata User 16",
+      "credits": 0,
+      "correctAnswerTime": 1569860599200,
+      "allAnswers": 8
+    },
+    {
+      "rankNo": 17,
+      "points": 9,
+      "eid": "121",
+      "nick": "Enigmata User 17",
+      "credits": 0,
+      "correctAnswerTime": 1569860600400,
+      "allAnswers": 9
+    },
+    {
+      "rankNo": 18,
+      "points": 9,
+      "eid": "144",
+      "nick": "Enigmata User 18",
+      "credits": 0,
+      "correctAnswerTime": 1569860601600,
+      "allAnswers": 3
+    },
+    {
+      "rankNo": 19,
+      "points": 9,
+      "eid": "169",
+      "nick": "Enigmata User 19",
+      "credits": 0,
+      "correctAnswerTime": 1569860602800,
+      "allAnswers": 2
+    },
+    {
+      "rankNo": 20,
+      "points": 9,
+      "eid": "190",
+      "nick": "Enigmata User 20",
+      "credits": 0,
+      "correctAnswerTime": 1569860604000,
+      "allAnswers": 7
+    },
+    {
+      "rankNo": 21,
+      "points": 8,
+      "eid": "1b9",
+      "nick": "Enigmata User 21",
+      "credits": 0,
+      "correctAnswerTime": 1569860605200,
+      "allAnswers": 6
+    },
+    {
+      "rankNo": 22,
+      "points": 8,
+      "eid": "1e4",
+      "nick": "Enigmata User 22",
+      "credits": 0,
+      "correctAnswerTime": 1569860606400,
+      "allAnswers": 9
+    },
+    {
+      "rankNo": 23,
+      "points": 8,
+      "eid": "211",
+      "nick": "Enigmata User 23",
+      "credits": 0,
+      "correctAnswerTime": 1569860607600,
+      "allAnswers": 3
+    },
+    {
+      "rankNo": 24,
+      "points": 8,
+      "eid": "240",
+      "nick": "Enigmata User 24",
+      "credits": 0,
+      "correctAnswerTime": 1569860608800,
+      "allAnswers": 5
+    },
+    {
+      "rankNo": 25,
+      "points": 8,
+      "eid": "271",
+      "nick": "Enigmata User 25",
+      "credits": 0,
+      "correctAnswerTime": 1569860610000,
+      "allAnswers": 9
+    },
+    {
+      "rankNo": 26,
+      "points": 8,
+      "eid": "2a4",
+      "nick": "Enigmata User 26",
+      "credits": 0,
+      "correctAnswerTime": 1569860611200,
+      "allAnswers": 3
+    },
+    {
+      "rankNo": 27,
+      "points": 8,
+      "eid": "2d9",
+      "nick": "Enigmata User 27",
+      "credits": 0,
+      "correctAnswerTime": 1569860612400,
+      "allAnswers": 2
+    },
+    {
+      "rankNo": 28,
+      "points": 8,
+      "eid": "310",
+      "nick": "Enigmata User 28",
+      "credits": 0,
+      "correctAnswerTime": 1569860613600,
+      "allAnswers": 5
+    },
+    {
+      "rankNo": 29,
+      "points": 8,
+      "eid": "349",
+      "nick": "Enigmata User 29",
+      "credits": 0,
+      "correctAnswerTime": 1569860614800,
+      "allAnswers": 10
+    },
+    {
+      "rankNo": 30,
+      "points": 8,
+      "eid": "384",
+      "nick": "Enigmata User 30",
+      "credits": 0,
+      "correctAnswerTime": 1569860616000,
+      "allAnswers": 1
+    },
+    {
+      "rankNo": 31,
+      "points": 7,
+      "eid": "3c1",
+      "nick": "Enigmata User 31",
+      "credits": 0,
+      "correctAnswerTime": 1569860617200,
+      "allAnswers": 4
+    },
+    {
+      "rankNo": 32,
+      "points": 7,
+      "eid": "400",
+      "nick": "Enigmata User 32",
+      "credits": 0,
+      "correctAnswerTime": 1569860618400,
+      "allAnswers": 7
+    },
+    {
+      "rankNo": 33,
+      "points": 7,
+      "eid": "441",
+      "nick": "Enigmata User 33",
+      "credits": 0,
+      "correctAnswerTime": 1569860619600,
+      "allAnswers": 4
+    },
+    {
+      "rankNo": 34,
+      "points": 7,
+      "eid": "484",
+      "nick": "Enigmata User 34",
+      "credits": 0,
+      "correctAnswerTime": 1569860620800,
+      "allAnswers": 9
+    },
+    {
+      "rankNo": 35,
+      "points": 7,
+      "eid": "4c9",
+      "nick": "Enigmata User 35",
+      "credits": 0,
+      "correctAnswerTime": 1569860622000,
+      "allAnswers": 2
+    },
+    {
+      "rankNo": 36,
+      "points": 7,
+      "eid": "510",
+      "nick": "Enigmata User 36",
+      "credits": 0,
+      "correctAnswerTime": 1569860623200,
+      "allAnswers": 2
+    },
+    {
+      "rankNo": 37,
+      "points": 7,
+      "eid": "559",
+      "nick": "Enigmata User 37",
+      "credits": 0,
+      "correctAnswerTime": 1569860624400,
+      "allAnswers": 1
+    },
+    {
+      "rankNo": 38,
+      "points": 7,
+      "eid": "5a4",
+      "nick": "Enigmata User 38",
+      "credits": 0,
+      "correctAnswerTime": 1569860625600,
+      "allAnswers": 3
+    },
+    {
+      "rankNo": 39,
+      "points": 7,
+      "eid": "5f1",
+      "nick": "Enigmata User 39",
+      "credits": 0,
+      "correctAnswerTime": 1569860626800,
+      "allAnswers": 4
+    },
+    {
+      "rankNo": 40,
+      "points": 7,
+      "eid": "640",
+      "nick": "Enigmata User 40",
+      "credits": 0,
+      "correctAnswerTime": 1569860628000,
+      "allAnswers": 6
+    },
+    {
+      "rankNo": 41,
+      "points": 6,
+      "eid": "691",
+      "nick": "Enigmata User 41",
+      "credits": 0,
+      "correctAnswerTime": 1569860629200,
+      "allAnswers": 10
+    },
+    {
+      "rankNo": 42,
+      "points": 6,
+      "eid": "6e4",
+      "nick": "Enigmata User 42",
+      "credits": 0,
+      "correctAnswerTime": 1569860630400,
+      "allAnswers": 4
+    },
+    {
+      "rankNo": 43,
+      "points": 6,
+      "eid": "739",
+      "nick": "Enigmata User 43",
+      "credits": 0,
+      "correctAnswerTime": 1569860631600,
+      "allAnswers": 3
+    },
+    {
+      "rankNo": 44,
+      "points": 6,
+      "eid": "790",
+      "nick": "Enigmata User 44",
+      "credits": 0,
+      "correctAnswerTime": 1569860632800,
+      "allAnswers": 2
+    },
+    {
+      "rankNo": 45,
+      "points": 6,
+      "eid": "7e9",
+      "nick": "Enigmata User 45",
+      "credits": 0,
+      "correctAnswerTime": 1569860634000,
+      "allAnswers": 2
+    },
+    {
+      "rankNo": 46,
+      "points": 6,
+      "eid": "844",
+      "nick": "Enigmata User 46",
+      "credits": 0,
+      "correctAnswerTime": 1569860635200,
+      "allAnswers": 1
+    },
+    {
+      "rankNo": 47,
+      "points": 6,
+      "eid": "8a1",
+      "nick": "Enigmata User 47",
+      "credits": 0,
+      "correctAnswerTime": 1569860636400,
+      "allAnswers": 4
+    },
+    {
+      "rankNo": 48,
+      "points": 6,
+      "eid": "900",
+      "nick": "Enigmata User 48",
+      "credits": 0,
+      "correctAnswerTime": 1569860637600,
+      "allAnswers": 1
+    },
+    {
+      "rankNo": 49,
+      "points": 6,
+      "eid": "961",
+      "nick": "Enigmata User 49",
+      "credits": 0,
+      "correctAnswerTime": 1569860638800,
+      "allAnswers": 8
+    },
+    {
+      "rankNo": 50,
+      "points": 6,
+      "eid": "9c4",
+      "nick": "Enigmata User 50",
+      "credits": 0,
+      "correctAnswerTime": 1569860640000,
+      "allAnswers": 1
+    },
+    {
+      "rankNo": 51,
+      "points": 5,
+      "eid": "a29",
+      "nick": "Enigmata User 51",
+      "credits": 0,
+      "correctAnswerTime": 1569860641200,
+      "allAnswers": 10
+    },
+    {
+      "rankNo": 52,
+      "points": 5,
+      "eid": "a90",
+      "nick": "Enigmata User 52",
+      "credits": 0,
+      "correctAnswerTime": 1569860642400,
+      "allAnswers": 3
+    },
+    {
+      "rankNo": 53,
+      "points": 5,
+      "eid": "af9",
+      "nick": "Enigmata User 53",
+      "credits": 0,
+      "correctAnswerTime": 1569860643600,
+      "allAnswers": 5
+    },
+    {
+      "rankNo": 54,
+      "points": 5,
+      "eid": "b64",
+      "nick": "Enigmata User 54",
+      "credits": 0,
+      "correctAnswerTime": 1569860644800,
+      "allAnswers": 9
+    },
+    {
+      "rankNo": 55,
+      "points": 5,
+      "eid": "bd1",
+      "nick": "Enigmata User 55",
+      "credits": 0,
+      "correctAnswerTime": 1569860646000,
+      "allAnswers": 6
+    },
+    {
+      "rankNo": 56,
+      "points": 5,
+      "eid": "c40",
+      "nick": "Enigmata User 56",
+      "credits": 0,
+      "correctAnswerTime": 1569860647200,
+      "allAnswers": 5
+    },
+    {
+      "rankNo": 57,
+      "points": 5,
+      "eid": "cb1",
+      "nick": "Enigmata User 57",
+      "credits": 0,
+      "correctAnswerTime": 1569860648400,
+      "allAnswers": 8
+    },
+    {
+      "rankNo": 58,
+      "points": 5,
+      "eid": "d24",
+      "nick": "Enigmata User 58",
+      "credits": 0,
+      "correctAnswerTime": 1569860649600,
+      "allAnswers": 6
+    },
+    {
+      "rankNo": 59,
+      "points": 5,
+      "eid": "d99",
+      "nick": "Enigmata User 59",
+      "credits": 0,
+      "correctAnswerTime": 1569860650800,
+      "allAnswers": 3
+    },
+    {
+      "rankNo": 60,
+      "points": 5,
+      "eid": "e10",
+      "nick": "Enigmata User 60",
+      "credits": 0,
+      "correctAnswerTime": 1569860652000,
+      "allAnswers": 9
+    },
+    {
+      "rankNo": 61,
+      "points": 4,
+      "eid": "e89",
+      "nick": "Enigmata User 61",
+      "credits": 0,
+      "correctAnswerTime": 1569860653200,
+      "allAnswers": 6
+    },
+    {
+      "rankNo": 62,
+      "points": 4,
+      "eid": "f04",
+      "nick": "Enigmata User 62",
+      "credits": 0,
+      "correctAnswerTime": 1569860654400,
+      "allAnswers": 7
+    },
+    {
+      "rankNo": 63,
+      "points": 4,
+      "eid": "f81",
+      "nick": "Enigmata User 63",
+      "credits": 0,
+      "correctAnswerTime": 1569860655600,
+      "allAnswers": 3
+    },
+    {
+      "rankNo": 64,
+      "points": 4,
+      "eid": "1000",
+      "nick": "Enigmata User 64",
+      "credits": 0,
+      "correctAnswerTime": 1569860656800,
+      "allAnswers": 4
+    },
+    {
+      "rankNo": 65,
+      "points": 4,
+      "eid": "1081",
+      "nick": "Enigmata User 65",
+      "credits": 0,
+      "correctAnswerTime": 1569860658000,
+      "allAnswers": 9
+    },
+    {
+      "rankNo": 66,
+      "points": 4,
+      "eid": "1104",
+      "nick": "Enigmata User 66",
+      "credits": 0,
+      "correctAnswerTime": 1569860659200,
+      "allAnswers": 9
+    },
+    {
+      "rankNo": 67,
+      "points": 4,
+      "eid": "1189",
+      "nick": "Enigmata User 67",
+      "credits": 0,
+      "correctAnswerTime": 1569860660400,
+      "allAnswers": 10
+    },
+    {
+      "rankNo": 68,
+      "points": 4,
+      "eid": "1210",
+      "nick": "Enigmata User 68",
+      "credits": 0,
+      "correctAnswerTime": 1569860661600,
+      "allAnswers": 6
+    },
+    {
+      "rankNo": 69,
+      "points": 4,
+      "eid": "1299",
+      "nick": "Enigmata User 69",
+      "credits": 0,
+      "correctAnswerTime": 1569860662800,
+      "allAnswers": 10
+    },
+    {
+      "rankNo": 70,
+      "points": 4,
+      "eid": "1324",
+      "nick": "Enigmata User 70",
+      "credits": 0,
+      "correctAnswerTime": 1569860664000,
+      "allAnswers": 1
+    },
+    {
+      "rankNo": 71,
+      "points": 3,
+      "eid": "13b1",
+      "nick": "Enigmata User 71",
+      "credits": 0,
+      "correctAnswerTime": 1569860665200,
+      "allAnswers": 2
+    },
+    {
+      "rankNo": 72,
+      "points": 3,
+      "eid": "1440",
+      "nick": "Enigmata User 72",
+      "credits": 0,
+      "correctAnswerTime": 1569860666400,
+      "allAnswers": 7
+    },
+    {
+      "rankNo": 73,
+      "points": 3,
+      "eid": "14d1",
+      "nick": "Enigmata User 73",
+      "credits": 0,
+      "correctAnswerTime": 1569860667600,
+      "allAnswers": 7
+    },
+    {
+      "rankNo": 74,
+      "points": 3,
+      "eid": "1564",
+      "nick": "Enigmata User 74",
+      "credits": 0,
+      "correctAnswerTime": 1569860668800,
+      "allAnswers": 2
+    },
+    {
+      "rankNo": 75,
+      "points": 3,
+      "eid": "15f9",
+      "nick": "Enigmata User 75",
+      "credits": 0,
+      "correctAnswerTime": 1569860670000,
+      "allAnswers": 6
+    },
+    {
+      "rankNo": 76,
+      "points": 3,
+      "eid": "1690",
+      "nick": "Enigmata User 76",
+      "credits": 0,
+      "correctAnswerTime": 1569860671200,
+      "allAnswers": 10
+    },
+    {
+      "rankNo": 77,
+      "points": 3,
+      "eid": "1729",
+      "nick": "Enigmata User 77",
+      "credits": 0,
+      "correctAnswerTime": 1569860672400,
+      "allAnswers": 9
+    },
+    {
+      "rankNo": 78,
+      "points": 3,
+      "eid": "17c4",
+      "nick": "Enigmata User 78",
+      "credits": 0,
+      "correctAnswerTime": 1569860673600,
+      "allAnswers": 10
+    },
+    {
+      "rankNo": 79,
+      "points": 3,
+      "eid": "1861",
+      "nick": "Enigmata User 79",
+      "credits": 0,
+      "correctAnswerTime": 1569860674800,
+      "allAnswers": 3
+    },
+    {
+      "rankNo": 80,
+      "points": 3,
+      "eid": "1900",
+      "nick": "Enigmata User 80",
+      "credits": 0,
+      "correctAnswerTime": 1569860676000,
+      "allAnswers": 8
+    },
+    {
+      "rankNo": 81,
+      "points": 2,
+      "eid": "19a1",
+      "nick": "Enigmata User 81",
+      "credits": 0,
+      "correctAnswerTime": 1569860677200,
+      "allAnswers": 2
+    },
+    {
+      "rankNo": 82,
+      "points": 2,
+      "eid": "1a44",
+      "nick": "Enigmata User 82",
+      "credits": 0,
+      "correctAnswerTime": 1569860678400,
+      "allAnswers": 4
+    },
+    {
+      "rankNo": 83,
+      "points": 2,
+      "eid": "1ae9",
+      "nick": "Enigmata User 83",
+      "credits": 0,
+      "correctAnswerTime": 1569860679600,
+      "allAnswers": 10
+    },
+    {
+      "rankNo": 84,
+      "points": 2,
+      "eid": "1b90",
+      "nick": "Enigmata User 84",
+      "credits": 0,
+      "correctAnswerTime": 1569860680800,
+      "allAnswers": 10
+    },
+    {
+      "rankNo": 85,
+      "points": 2,
+      "eid": "1c39",
+      "nick": "Enigmata User 85",
+      "credits": 0,
+      "correctAnswerTime": 1569860682000,
+      "allAnswers": 5
+    },
+    {
+      "rankNo": 86,
+      "points": 2,
+      "eid": "1ce4",
+      "nick": "Enigmata User 86",
+      "credits": 0,
+      "correctAnswerTime": 1569860683200,
+      "allAnswers": 2
+    },
+    {
+      "rankNo": 87,
+      "points": 2,
+      "eid": "1d91",
+      "nick": "Enigmata User 87",
+      "credits": 0,
+      "correctAnswerTime": 1569860684400,
+      "allAnswers": 4
+    },
+    {
+      "rankNo": 88,
+      "points": 2,
+      "eid": "1e40",
+      "nick": "Enigmata User 88",
+      "credits": 0,
+      "correctAnswerTime": 1569860685600,
+      "allAnswers": 1
+    },
+    {
+      "rankNo": 89,
+      "points": 2,
+      "eid": "1ef1",
+      "nick": "Enigmata User 89",
+      "credits": 0,
+      "correctAnswerTime": 1569860686800,
+      "allAnswers": 10
+    },
+    {
+      "rankNo": 90,
+      "points": 2,
+      "eid": "1fa4",
+      "nick": "Enigmata User 90",
+      "credits": 0,
+      "correctAnswerTime": 1569860688000,
+      "allAnswers": 3
+    },
+    {
+      "rankNo": 91,
+      "points": 1,
+      "eid": "2059",
+      "nick": "Enigmata User 91",
+      "credits": 0,
+      "correctAnswerTime": 1569860689200,
+      "allAnswers": 7
+    },
+    {
+      "rankNo": 92,
+      "points": 1,
+      "eid": "2110",
+      "nick": "Enigmata User 92",
+      "credits": 0,
+      "correctAnswerTime": 1569860690400,
+      "allAnswers": 4
+    },
+    {
+      "rankNo": 93,
+      "points": 1,
+      "eid": "21c9",
+      "nick": "Enigmata User 93",
+      "credits": 0,
+      "correctAnswerTime": 1569860691600,
+      "allAnswers": 6
+    },
+    {
+      "rankNo": 94,
+      "points": 1,
+      "eid": "2284",
+      "nick": "Enigmata User 94",
+      "credits": 0,
+      "correctAnswerTime": 1569860692800,
+      "allAnswers": 5
+    },
+    {
+      "rankNo": 95,
+      "points": 1,
+      "eid": "2341",
+      "nick": "Enigmata User 95",
+      "credits": 0,
+      "correctAnswerTime": 1569860694000,
+      "allAnswers": 7
+    },
+    {
+      "rankNo": 96,
+      "points": 1,
+      "eid": "2400",
+      "nick": "Enigmata User 96",
+      "credits": 0,
+      "correctAnswerTime": 1569860695200,
+      "allAnswers": 2
+    },
+    {
+      "rankNo": 97,
+      "points": 1,
+      "eid": "24c1",
+      "nick": "Enigmata User 97",
+      "credits": 0,
+      "correctAnswerTime": 1569860696400,
+      "allAnswers": 6
+    },
+    {
+      "rankNo": 98,
+      "points": 1,
+      "eid": "2584",
+      "nick": "Enigmata User 98",
+      "credits": 0,
+      "correctAnswerTime": 1569860697600,
+      "allAnswers": 4
+    },
+    {
+      "rankNo": 99,
+      "points": 1,
+      "eid": "2649",
+      "nick": "Enigmata User 99",
+      "credits": 0,
+      "correctAnswerTime": 1569860698800,
+      "allAnswers": 6
+    },
+    {
+      "rankNo": 100,
+      "points": 1,
+      "eid": "2710",
+      "nick": "Enigmata User 100",
+      "credits": 0,
+      "correctAnswerTime": 1569860700000,
+      "allAnswers": 5
+    }
+  ]
+}

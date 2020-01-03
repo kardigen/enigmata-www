@@ -1,0 +1,15 @@
+{
+  "riddlesListConfig": [
+	{ "startPattern":"T06:00:00.000Z", "endPattern":"T06:30:00.000Z", "gameTypeCode":"firstWinFree",  "state": "reuse", "rule": "always"  },
+	{ "startPattern":"T07:00:00.000Z", "endPattern":"T07:30:00.000Z", "gameTypeCode":"firstWinFree",  "state": "reuse", "rule": "always"  },
+	{ "startPattern":"T08:00:00.000Z", "endPattern":"T08:30:00.000Z", "gameTypeCode":"firstWinFree",  "state": "reuse", "rule": "always"  },
+	{ "startPattern":"T09:00:00.000Z", "endPattern":"T09:30:00.000Z", "gameTypeCode":"firstWinFree",  "state": "reuse", "rule": "always"  },
+	{ "startPattern":"T10:00:00.000Z", "endPattern":"T10:30:00.000Z", "gameTypeCode":"firstWinFree",  "state": "reuse",	"rule": "always"  },
+	{ "startPattern":"T11:00:00.000Z", "endPattern":"T11:30:00.000Z", "gameTypeCode":"firstWinFree",  "state": "reuse", "rule": "always"  },
+	{ "startPattern":"T14:00:00.000Z", "endPattern":"T14:30:00.000Z", "gameTypeCode":"firstWinFree",  "state": "reuse", "rule": "always"  },
+	{ "startPattern":"T15:00:00.000Z", "endPattern":"T15:30:00.000Z", "gameTypeCode":"firstWinFree",  "state": "reuse", "rule": "always"  },
+	{ "startPattern":"T16:00:00.000Z", "endPattern":"T16:30:00.000Z", "gameTypeCode":"firstWinFree",  "state": "reuse", "rule": "always"  },
+	{ "startPattern":"T17:00:00.000Z", "endPattern":"T17:30:00.000Z", "gameTypeCode":"firstWinFree",  "state": "reuse", "rule": "always"  },
+	{ "startPattern":"T18:00:00.000Z", "endPattern":"T18:30:00.000Z", "gameTypeCode":"firstWinFree",  "state": "reuse", "rule": "always"  }
+  ]
+}

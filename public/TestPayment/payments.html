@@ -1,0 +1,150 @@
+<html lang="pl">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="application-name" content="CashBill">
+    <link rel="stylesheet" href="./main.css" type="text/css">
+    <link rel="stylesheet" href="./tipsy.css" type="text/css">
+    <link rel="stylesheet" href="./font-awesome.min.css" type="text/css">
+    <title>Płatności CashBill</title>
+
+<body>
+<div id="top">
+    <img id="logo" src="./cashbill.png" alt="Cashbill S.A." title="Cashbill S.A.">
+    <div id="payment-info">
+        <div id="payment-amount"><strong>1,01&nbsp;zł</strong></div>
+        <div id="payment-data">
+            <div id="payment-title">Transakcja Testowa</div>
+            <div id="payment-desc">Test płatności CashBill</div>
+        </div>
+    </div>
+</div>
+
+<form onsubmit="sendStatus(); return false;">
+
+    <div id="payment-channels-holder" class="holder">
+
+        <div id="payment-channels">
+            <div class="AVAILABLE_ONLINE  ">
+                <button type="submit"
+                        style="background-image: url(https://img.cashbill.pl/neopay/transfer/03/black_blik.png)">
+                    <p>BILK</p>
+                </button>
+            </div>
+            <div class="AVAILABLE_ONLINE  ">
+                <button type="submit"
+                        style="background-image: url(https://img.cashbill.pl/neopay/transfer/03/mtransfer.png)"
+                        original-title="Księgowanie natychmiastowe">
+                    <p>mBank</p>
+                </button>
+            </div>
+            <div class="AVAILABLE_ONLINE  ">
+                <button type="submit"
+                        style="background-image: url(https://img.cashbill.pl/neopay/transfer/03/place_z_inteligo.png)">
+                    <p>Inteligo</p>
+                </button>
+            </div>
+            <div class="AVAILABLE_ONLINE  ">
+                <button type="submit"
+                        style="background-image: url(https://img.cashbill.pl/neopay/transfer/03/place_z_ipko.png)">
+                    <p>PKO BP</p>
+                </button>
+            </div>
+            <div class="AVAILABLE_ONLINE  ">
+                <button type="submit"
+                        style="background-image: url(https://img.cashbill.pl/neopay/transfer/03/plac_z_ing.png)">
+                    <p>Płać z ING</p>
+                </button>
+            </div>
+            <div class="AVAILABLE_ONLINE  ">
+                <button type="submit"
+                        style="background-image: url(https://img.cashbill.pl/neopay/bank/03/pocztowy24.png)">
+                    <p>Bank Pocztowy</p>
+                </button>
+            </div>
+            <div class="AVAILABLE_ONLINE  ">
+                <button type="submit"
+                        style="background-image: url(https://img.cashbill.pl/neopay/transfer/03/przelew24_wbk.png)">
+                    <p>Bank Zachodni WBK</p>
+                </button>
+            </div>
+            <div class="AVAILABLE_ONLINE  ">
+                <button type="submit"
+                        style="background-image: url(https://img.cashbill.pl/neopay/bank/03/pekao_sa.png)">
+                    <p>Pekao 24 Przelew</p>
+                </button>
+            </div>
+            <div class="AVAILABLE_ONLINE  ">
+                <button type="submit"
+                        style="background-image: url(https://img.cashbill.pl/neopay/bank/03/alior_bank.png)">
+                    <p>Alior Bank</p>
+                </button>
+            </div>
+            <div class="AVAILABLE_ONLINE  ">
+                <button type="submit"
+                        style="background-image: url(https://img.cashbill.pl/neopay/bank/03/millennium_bank.png)">
+                    <p>Bank Millennium</p>
+                </button>
+            </div>
+            <div class="AVAILABLE_ONLINE  ">
+                <button type="submit"
+                        style="background-image: url(https://img.cashbill.pl/neopay/bank/03/exbnpp.png)">
+                    <p>BGZ BNPP Paribas</p>
+                </button>
+            </div>
+            <div class="AVAILABLE_ONLINE  ">
+                <button type="submit"
+                        style="background-image: url(https://img.cashbill.pl/neopay/bank/03/cagricolepbl.png)">
+                    <p>Crédit Agricole e-przelew</p>
+                </button>
+            </div>
+        </div>
+    </div>
+        <div class="clear"></div>
+        <div style="padding-left: 20vw;">
+            <label>Select state:</label>
+            <select id="stateSelection">
+                <option value="PositiveFinish">PositiveFinish</option>
+                <option value="NegativeFinish">NegativeFinish</option>
+            </select>
+        </div>
+</form>
+
+<script>
+    function sendStatus(e) {
+        const selection = document.getElementById('stateSelection');
+        const option = selection.options[selection.selectedIndex].value;
+        const url = new URL(location.href);
+        const api_url = url.searchParams.get("api_url");
+        const external_id = url.searchParams.get("external_id");
+        const redirect_url = url.searchParams.get("redirect_url");
+        const xhr = new XMLHttpRequest();
+        const params = "cmd=transactionStatusChanged"
+            + "&args=" + external_id
+            + "&sign=SIGN&state=" + option;
+
+        const service_url = api_url + '/payment-status-changed?' + params;
+        console.log("service_url: " + service_url);
+
+        xhr.open('GET', service_url, true);
+        xhr.setRequestHeader("Accept", "application/json");
+        xhr.setRequestHeader("Content-type", "application/json");
+
+
+        xhr.onloadend =  (e) => {
+            console.log("onloadend: " + JSON.stringify(e));
+            if (e.target.status === 200) {
+                location.href = redirect_url;
+            }
+            else {
+                alert('ERROR: ' + JSON.stringify(e))
+            }
+        };
+
+        xhr.send();
+    }
+</script>
+
+</body>
+</html>

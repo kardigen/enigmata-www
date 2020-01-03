@@ -1,0 +1,16 @@
+User-agent: *
+Disallow: /assets/
+Disallow: /img/
+Disallow: /main/
+Disallow: /results/
+Disallow: /riddles/
+Disallow: /static/
+Disallow: /polityka_prywatnosci.html
+Disallow: /regulamin.html
+Disallow: /regulamin_old.html
+Disallow: /regulamin_promocji_trzy_na_start.html
+Disallow: /regulamin_zagadka_free.html
+Disallow: /regulamin_zakupu_kredytow.html
+Disallow: /regulamin_*
+Disallow: /maintenence.html
+Disallow: /koniec.html

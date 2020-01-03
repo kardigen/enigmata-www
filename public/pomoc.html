@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-M4BMQ84');</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+    <title>Enigmata - Koniec</title>
+    <meta name="description" content="Enigmata - zagadki, wygrane, rankingi - najlepsza rozrywka intelektualna">
+    <meta property="og:url" content="https://www.enigmata.pl/">
+    <meta property="og:title" content="Enigmata - rozwiązuj zagadki i wygrywaj pieniądze">
+    <meta property="og:description" content="Codziennie nowe zagadki, rozwiąż pierwszy i wygraj.">
+    <meta property="og:image" content="https://www.enigmata.pl/enigmata-splash.png">
+    <meta property="og:image:url" content="https://www.enigmata.pl/enigmata-splash.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image"></meta>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.enigmata.pl/css/bootstrap.min.css">
+    <script src="https://www.enigmata.pl/js/jquery.min.js"></script>
+    <script src="https://www.enigmata.pl/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/css/enigmata.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            background-size: 100% 100%;
+            background: #114B5F; /* For browsers that do not support gradients */
+            background: -webkit-radial-gradient(#247BA0, #114B5F); /* Safari 5.1 to 6.0 */
+            background: -o-radial-gradient(#247BA0, #114B5F); /* For Opera 11.6 to 12.0 */
+            background: -moz-radial-gradient(#247BA0, #114B5F); /* For Firefox 3.6 to 15 */
+            background: radial-gradient(#247BA0, #114B5F); /* Standard syntax (must be last) */
+            min-height: 100vh;
+
+        }
+        :focus {
+            outline: none;
+            outline-style: none;
+            box-shadow: none;
+            border-color: transparent;
+        }
+        h2 {
+            font-family: 'Lato', sans-serif;
+            font-size: 32px;
+        }
+        .section {
+            min-height: 100px;
+        }
+        .hr {
+            border-top: 1px solid #D9D9CA;
+            height: 0;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .white-bg {
+            padding: 24px 32px 24px 32px;
+            background-color: #F1F1E0;
+            box-shadow: 0px 0px 10px #333333;
+            border-radius: 5px;
+            color: #114B5F;
+        }
+        ol {
+            padding-inline-start: 20px;
+        }
+    </style>
+</head>
+<body>
+<div id="site-view-port-content">
+
+    <nav id="landingPageNav" class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header" style="padding: 15px">
+                <a href="/"><img alt="Enigmata Logo" src="img/logo.png" width="150px"
+                                  style="display: inline-block;"></a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container">
+        <div class="container">
+            <div class="row">
+                <div class="white-bg">
+                    <div>
+                        <h1 class="text-center">Pomoc</h1>
+                        <div>
+                            <p class="text-center">Kliknij w pytanie by uzyskać odpowiedź.</p>
+                        </div>
+                        <div class="hr"></div>
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse0">
+                                            Do czego służy serwis?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapse0" class="panel-collapse collapse" role="tabpanel">
+                                    <p>Serwis enigmata.pl służy do poszerzania wiedzy poprzez zabawę w rozwiązywanie zagadek.</p>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse01">
+                                            Jestem pierwszy raz - jak zacząć?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapse01" class="panel-collapse collapse" role="tabpanel">
+                                    <p>Po wejściu na stronę enigmata.pl można albo założyć konto klikając w przycisk Rejestruj się (wówczas wszystkie opcje serwisu będą dostępne), lub sprawdzić jak wygląda serwis bez rejestracji klikając na przycisk "Sprawdź bez rejestracji".</p>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                                            Jak w to się gra?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapse1" class="panel-collapse collapse" role="tabpanel">
+                                    <p>O określonej godzinie ujawniana jest nowa zagadka.</p>
+                                    <p><strong>Wygrywa ten, kto pierwszy odpowie poprawnie.</strong></p>
+                                    <p>Możesz próbować tyle razy ile chcesz, aż odgadniesz.</p>
+                                    <p>Odgadując zagadki możesz zdobywać punkty oraz wygrywać nagrody pieniężne. Każda zagadka ma określone w jej regulaminie warunki gry.</p>
+                                    <p>Aby grać:</p>
+                                    <ol>
+                                        <li>Na liście zagadek kliknij "Dołącz do gry".</li>
+                                        <li>Na następnym ekranie zapoznaj się z warunkami gry i zaakceptuj regulamin.</li>
+                                        <li>Kliknij "Graj" by dołączyć do gry.</li>
+                                        <li>Otworzy się ekran zagadki. Jeśli zagadka jeszcze się nie rozpoczęła, pojawi się ekran oczekiwania na rozpoczęcie gry. Jeśli zagadka już się rozpoczęła, możesz próbować odgadnąć odpowiedź.</li>
+                                        <li>Gdy podasz prawidłową odpowiedź, serwis powiadomi Ciebie o tym odpowiednim komunikatem.</li>
+                                        <li>Poczekaj na zakończenie zagadki, aby zobaczyć wyniki.</li>
+                                    </ol>
+
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse02">
+                                            Czy rozwiązywanie zagadek jest płatne?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapse02" class="panel-collapse collapse" role="tabpanel">
+                                    <p>Korzystanie z serwisu jest bezpłatne.</p>
+                                </div>
+                            </div>
+                            <!--<div class="panel panel-default">-->
+                                <!--<div class="panel-heading" role="tab">-->
+                                    <!--<h4 class="panel-title">-->
+                                        <!--<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse03">-->
+                                            <!--Kto może grać w zagadki z nagrodą pieniężną?-->
+                                        <!--</a>-->
+                                    <!--</h4>-->
+                                <!--</div>-->
+                                <!--<div id="collapse03" class="panel-collapse collapse" role="tabpanel">-->
+                                    <!--<p>Zgodnie z regulaminem w zagadki z nagrodą pieniężną mogą grać tylko osoby pełnoletnie (lub 13 letnie i starsze za pozwoleniem opiekuna prawnego) na stałe mieszkające w Polsce oraz posiadające konto w polskim banku.</p>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="panel panel-default">-->
+                                <!--<div class="panel-heading" role="tab">-->
+                                    <!--<h4 class="panel-title">-->
+                                        <!--<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2">-->
+                                            <!--Jak mogę grać o pieniądze?-->
+                                        <!--</a>-->
+                                    <!--</h4>-->
+                                <!--</div>-->
+                                <!--<div id="collapse2" class="panel-collapse collapse" role="tabpanel">-->
+                                    <!--<p>Aby grać w zagadki o nagrody pieniężne należy posiadać odpowiednią ilość kredytów.</p>-->
+                                    <!--<p>Sama gra wygląda tak samo jak gra dla zagadki bez nagrody pieniężnej. Sprawdź wyżej w sekcji <b>"Jak w to się gra?"</b></p>-->
+                                    <!--<p>Kredyty można zakupić, co jest opisane poniżej w sekcji <b>"Jak mogę kupić kredyty?"</b></p>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="panel panel-default">-->
+                                <!--<div class="panel-heading" role="tab">-->
+                                    <!--<h4 class="panel-title">-->
+                                        <!--<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3">-->
+                                            <!--Jak mogę kupić kredyty?-->
+                                        <!--</a>-->
+                                    <!--</h4>-->
+                                <!--</div>-->
+                                <!--<div id="collapse3" class="panel-collapse collapse" role="tabpanel">-->
+                                    <!--<p>Po zalogowaniu się do serwisu należy kliknąć w niebieski przycisk "Zakup kredyty", następnie wybrać opcję, która ciebie interesuje i nacisnąć przycisk kupuję. W chwili obecnej dostępne są 4 pakiety: 6 złotych za 3 kredyty, 10 złotych za 7 kredytów, 20 złotych za 20 kredytów oraz 40 złotych za aż 60 kredytów.</p>-->
+                                    <!--<p>Po wciśnięciu kupuję należy kliknąć w kwadracik potwierdzający zapoznanie się z regulaminem zakupu kredytów, a następnie podać numer telefonu celem weryfikacji tożsamości.</p>-->
+                                    <!--<p>Po uzupełnieniu danych kliknij czerwony przycisk Płacę. Następuje przekierowanie na zewnętrzy serwis CashBill odpowiedzialny za szybkie płatności, tak jak to ma miejsce przy robieniu zakupów online metodą „szybki przelew”.</p>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="panel panel-default">-->
+                                <!--<div class="panel-heading" role="tab">-->
+                                    <!--<h4 class="panel-title">-->
+                                        <!--<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4">-->
+                                            <!--Jak mogę wypłacić wygrane?-->
+                                        <!--</a>-->
+                                    <!--</h4>-->
+                                <!--</div>-->
+                                <!--<div id="collapse4" class="panel-collapse collapse" role="tabpanel">-->
+                                    <!--<p>Aby wypłacić wygrane pieniądze należy:</p>-->
+                                    <!--<ol>-->
+                                        <!--<li>Na ekranie <b>Profil</b> kliknij przycisk <b>"Wypłać wygrane"</b>.</li>-->
+                                        <!--<li>Na następnym ekranie podaj nr twojego konta, imię, nazwisko oraz adres zamieszkania.</li>-->
+                                        <!--<li>Sprawdź czy wszystkie dane zgadzają się z danymi w twoim banku.</li>-->
+                                        <!--<li>Kliknij przycisk "Wypłać" by zgłosić chęć wypłaty wygranych.</li>-->
+                                        <!--<li>Na następnym ekranie sprawdź czy twoje dane zgadzają się i potwierdź klikając przycisk "Wypłacam wygrane".</li>-->
+                                        <!--<li>Otrzymasz komunikat potwierdzający oraz e-mail z potwierdzeniem zlecenia wypłaty wygranych.</li>-->
+                                    <!--</ol>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="panel panel-default">-->
+                                <!--<div class="panel-heading" role="tab">-->
+                                    <!--<h4 class="panel-title">-->
+                                        <!--<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse8">-->
+                                            <!--Jak długo muszę czekać na wypłatę wygranych?-->
+                                        <!--</a>-->
+                                    <!--</h4>-->
+                                <!--</div>-->
+                                <!--<div id="collapse8" class="panel-collapse collapse" role="tabpanel">-->
+                                    <!--<p>Zgodnie z regulaminem serwis ma 15 dni roboczych na wypłatę wygranych.</p>-->
+                                    <!--<p>Zazwyczaj wypłacamy wygrana 1-2 razy w tygodniu. Jednak może się zdażyć, że będzie o trwało dłużej, zwłaszcza gdy będą dni kiedy banki nie pracują.</p>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="panel panel-default">-->
+                                <!--<div class="panel-heading" role="tab">-->
+                                    <!--<h4 class="panel-title">-->
+                                        <!--<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse7">-->
+                                            <!--Dlaczego muszę wypłacić wygrane by kupić nowe kredyty?-->
+                                        <!--</a>-->
+                                    <!--</h4>-->
+                                <!--</div>-->
+                                <!--<div id="collapse7" class="panel-collapse collapse" role="tabpanel">-->
+                                    <!--<p>Wypłata wygranej przed zakupem kolejnych kredytów jest konieczna, aby serwis nie był posądzony o oferowanie gier hazadrowych w myśl ustawy "o grach hazardowych".</p>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse9">
+                                            Po co są punkty?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapse9" class="panel-collapse collapse" role="tabpanel">
+                                    <p>Punkty odzwierciedlają doświadczenie gracza w rozwiązywaniu zagadek. Dzięki punktom użytkownicy mogą uzyskać dostęp do niektórych gier i zagadek.</p>
+                                    <!--<p>Np. zagadki o wyższą nagrodę pieniężną są dostępne jeśli użytkownik posiada odpowiednią ilość punktów. Punkty nie są wirtualnym środkiem płatniczym. Nie mozna ich kupić ani wymienić na pieniądze, można je jedynie zdobyć rozwiązując zagadki.</p>-->
+                                </div>
+                            </div>
+                            <!--<div class="panel panel-default">-->
+                                <!--<div class="panel-heading" role="tab">-->
+                                    <!--<h4 class="panel-title">-->
+                                        <!--<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse10">-->
+                                            <!--Po co są kredyty?-->
+                                        <!--</a>-->
+                                    <!--</h4>-->
+                                <!--</div>-->
+                                <!--<div id="collapse10" class="panel-collapse collapse" role="tabpanel">-->
+                                    <!--<p>Kredyty są wirtualnymi żetonami dającymi dostęp do zagadek z nagrodą pieniężną. Kredyty nie są jednak wirtualnym środkiem płatniczym, nie można ich wymienić na pieniądze.</p>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse11">
+                                            Po co jest ranking?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapse11" class="panel-collapse collapse" role="tabpanel">
+                                    <p>Ranking pokazuje ilość zdobytych punktów w danym czasie i służy porównywaniu osiągnięć graczy.</p>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse12">
+                                            Gdzie szukać pomocy?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapse12" class="panel-collapse collapse" role="tabpanel">
+                                    <p>By otrzymać pomoc w sprawach dotyczących działania serwisu:</p>
+                                    <ol>
+                                        <li>Sprawdź pytania i odpowiedzi na tej stronie.</li>
+                                        <li>Napisz do nas wiadomość prywatną na stronie <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/enigmatapl">facebook serwisu Enigmata.pl</a></li>
+                                        <li>Napisz do nas e-mail na adres <a target="_blank" rel="noopener noreferrer" href="mailto:info@enigmata.pl">info@enigmata.pl</a></li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse13">
+                                            Co zrobić gdy serwis źle działa?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapse13" class="panel-collapse collapse" role="tabpanel">
+                                    <!--<p>Jeśli problem dotyczy zakupu kredytów, systemu płatności, lub zagadek z nagrodą pieniężną napisz do nas na adres email: <a target="_blank" rel="noopener noreferrer" href="mailto:reklamacja@enigmata.pl">reklamacja@enigmata.pl</a></p>-->
+                                    <p>Zobacz w sekcji powyżej: "Gdzie szukać pomocy?"</p>
+                                </div>
+                            </div>
+                            <!--<div class="panel panel-default">-->
+                                <!--<div class="panel-heading" role="tab">-->
+                                    <!--<h4 class="panel-title">-->
+                                        <!--<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse14">-->
+                                            <!--Czy Enigmata to gra hazardowa?-->
+                                        <!--</a>-->
+                                    <!--</h4>-->
+                                <!--</div>-->
+                                <!--<div id="collapse14" class="panel-collapse collapse" role="tabpanel">-->
+                                    <!--<p>Enigmata.pl <b>nie oferuje gier hazardowych</b> w myśl ustawy "o grach hazardowych". Jest serwisem rozrywkowym organizującym konkursy z dziedzin: nauki, kultury, sztuki, dziennikarstwa i sportu.</p>-->
+                                    <!--<p>Zagadki nie są grami losowymi, ani zakładami wzajemnymi, ale konkursami bazującymi na wiedzy uczestników o ściśle określonych zasadach uczestnictwa oraz z góry określoną sumą pieniędzy do wygrania.</p>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<footer/>
+<div class="footer">
+    <div class="container">
+        <div class="col-lg-9">
+            <a href="/pomoc.html">Pomoc</a> |
+            <a href="/polityka_prywatnosci.html">Polityka prywatności</a> |
+            <a href="/regulamin.html">Regulamin</a> |
+            <a href="mailto:info@enigmata.pl">Media</a>
+        </div>
+        <div class="col-lg-3">
+            <div class="text-right"><p>&copy; Enigmata 2019</p></div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "projectId":  "enigmata-www",
+  "baseUrl":    "http://localhost:3001",
+  "defaultCommandTimeout": 10000
+}

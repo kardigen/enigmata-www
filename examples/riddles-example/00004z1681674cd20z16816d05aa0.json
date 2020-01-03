@@ -1,0 +1,30 @@
+{
+  "riddleId": 4,
+  "startDate": 1546564980000,
+  "endDate": 1546570980000,
+  "question": "Riddle 4",
+  "hints": {
+    "words": 2
+  },
+  "riddleType": "logika",
+  "riddleStatus": "used",
+  "riddleHashId": "00004z1681674cd20z16816d05aa0",
+  "gameTypeCode": "firstWinFree",
+  "name": "Zagadka free",
+  "description": "Zasady gry w skrócie",
+  "rules": [
+    "Aby wygrać odgadnij zagadkę jako pierwszy.",
+    "W czasie trwania zagadki możesz próbować tyle razy ile chcesz.",
+    "W tej zagadce można wygrać 5 e-punktów, brak nagrody pieniężnej.",
+    "Dostaniesz 2 e-punktów za odgadnięcie zagadki oraz dodatkowo 3 e-punkty za miejsce 1-10, 2 za miejsce 11-20, 1 za miejsce 21-30.",
+    "Zagadka jest całkowicie za darmo."
+  ],
+  "termsLink": "/regulamin_zagadka_free.html",
+  "creditsCost": 0,
+  "pointsCost": 0,
+  "winPrize": 0,
+  "winPointsMax": 3,
+  "winPointsPerStep": 1,
+  "winPointsStep": 10,
+  "winPointsRiddleSolve": 2
+}

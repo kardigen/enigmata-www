@@ -1,0 +1,51 @@
+/*landing page & HTML pages */
+
+.navbar-inverse {
+    background-color: #114B5F;
+    border-color: #114B5F;
+    height: 100px;
+    padding-top: 10px;
+}
+
+.btn-ghost {
+    border-radius: 5px;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 18px;
+    background: #114B5F;
+    padding: 12px 29px 12px 29px;
+    border: solid #ffffff 2px;
+}
+
+.btn-ghost:hover {
+    background: #000000;
+}
+
+.btn-home {
+    padding: 16px;
+    color: #ffffff;
+    background: #114B5F;
+    border: none;
+}
+
+.btn-home:hover {
+    color: #DA4167;
+}
+
+.footer {
+    color: #ffffff;
+    background-color: #114B5F;
+    padding: 25px 29px 12px 29px;
+    margin-top: 24px;
+}
+
+.footer a {
+    color: #ffffff;
+}
+
+#site-view-port-content {
+    min-height: 100vh;
+}
+
+
+

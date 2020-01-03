@@ -1,0 +1,11 @@
+export const PAYMENT_VERIFY_STATUS_REQUEST = "PAYMENT_VERIFY_STATUS_REQUEST";
+export const PAYMENT_VERIFY_STATUS_ERROR = "PAYMENT_VERIFY_STATUS_ERROR";
+export const PAYMENT_VERIFY_STATUS_SUCCESS = "PAYMENT_VERIFY_STATUS_SUCCESS";
+export const PAYMENT_VERIFY_STATUS_POSPONED = "PAYMENT_VERIFY_STATUS_POSPONED";
+
+export const verifyPaymentStatus = (paymentId) => {
+    return {
+        type: PAYMENT_VERIFY_STATUS_REQUEST,
+        paymentId: paymentId
+    }
+};

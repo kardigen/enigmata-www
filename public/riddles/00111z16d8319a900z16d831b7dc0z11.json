@@ -1,0 +1,33 @@
+{
+  "riddleId": 111,
+  "riddleNo": 12,
+  "startDate": 1569862560000,
+  "endDate": 1569862680000,
+  "question": "Riddle 12",
+  "hints": {
+    "words": 2
+  },
+  "riddleType": "wiedza",
+  "riddleStatus": "used",
+  "riddleHashId": "00111z16d8319a900z16d831b7dc0z11",
+  "gameTypeCode": "firstWin1",
+  "name": "Kto pierwszy ten lepszy - 25zł",
+  "description": "Zasady gry w skrócie",
+  "rules": [
+    "By wygrać odgadnij zagadkę jako pierwszy.",
+    "Możesz próbować, aż odgadniesz.",
+    "Nagroda 25zł za pierwsze miejsce.",
+    "Dodatkowo 10 punktów za pierwsze miejsce oraz o jeden mniej za każde kolejne (pierwsze 10 osób wygrywa).",
+    "Dodatkowo 5 punktów dla każdego, kto udzieli prawidłowej odpowiedzi."
+  ],
+  "termsLink": "/regulamin_zagadka.html",
+  "creditsCost": 3,
+  "pointsCost": 0,
+  "winPrize": 10,
+  "winPointsMax": 10,
+  "winPointsPerStep": 1,
+  "winPointsStep": 1,
+  "winPointsRiddleSolve": 5,
+  "firstStartDate": "",
+  "locked": false
+}

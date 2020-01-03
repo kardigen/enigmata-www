@@ -1,0 +1,33 @@
+{
+  "riddleId": 101,
+  "riddleNo": 11,
+  "startDate": 1569862380000,
+  "endDate": 1569862500000,
+  "question": "Riddle 11",
+  "hints": {
+    "words": 2
+  },
+  "riddleType": "wiedza",
+  "riddleStatus": "used",
+  "riddleHashId": "00101z16d8316e9e0z16d8318bea0z10",
+  "gameTypeCode": "firstWinFree",
+  "name": "Zagadka free",
+  "description": "Zasady gry w skrócie",
+  "rules": [
+    "Aby wygrać odgadnij zagadkę jako pierwszy.",
+    "W czasie trwania zagadki możesz próbować tyle razy ile chcesz.",
+    "W tej zagadce można wygrać 5 e-punktów, brak nagrody pieniężnej.",
+    "Dostaniesz 2 e-punktów za odgadnięcie zagadki oraz dodatkowo 3 e-punkty za miejsce 1-10, 2 za miejsce 11-20, 1 za miejsce 21-30.",
+    "Zagadka jest całkowicie za darmo."
+  ],
+  "termsLink": "/regulamin_zagadka.html",
+  "creditsCost": 3,
+  "pointsCost": 0,
+  "winPrize": 0,
+  "winPointsMax": 3,
+  "winPointsPerStep": 1,
+  "winPointsStep": 10,
+  "winPointsRiddleSolve": 15,
+  "firstStartDate": "",
+  "locked": false
+}
